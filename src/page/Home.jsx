@@ -4,6 +4,7 @@ import Relevant from '../component/Relevant'
 import Compassion from '../component/Compassion'
 import Benefits from '../component/Benefits'
 import JoinUs from '../component/JoinUs'
+import AroundUs from '../component/AroundUs'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Compassion/>
         <Benefits/>
         <JoinUs/>
+        <AroundUs/>
      </>
   )
 }

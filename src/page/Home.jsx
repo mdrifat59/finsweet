@@ -5,6 +5,7 @@ import Compassion from '../component/Compassion'
 import Benefits from '../component/Benefits'
 import JoinUs from '../component/JoinUs'
 import AroundUs from '../component/AroundUs'
+import Blog from '../component/Blog'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Benefits/>
         <JoinUs/>
         <AroundUs/>
+        <Blog/>
      </>
   )
 }

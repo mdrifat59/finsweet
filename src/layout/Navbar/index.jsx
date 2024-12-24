@@ -1,6 +1,7 @@
 import React from 'react'
 import { VactorIcon } from '../../svg/Vactor'
 import { Link, NavLink } from 'react-router-dom'
+import { IoIosMenu } from 'react-icons/io'
 
 const Navbar = () => {
     let menuData = [
@@ -31,16 +32,16 @@ const Navbar = () => {
     ]
     return (
         <>
-            <nav className='bg-[#0D0D0D] py-3 '>
-                <div className='max-w-container mx-auto '>
-                    <div className='grid grid-cols-[1fr,3fr,1fr] py-3 justify-center items-center'>
+            <nav className='bg-[#0D0D0D] md:py-3'>
+                <div className='w-full px-4 sm:px-8 lg:max-w-container lg:mx-auto '>
+                    <div className='grid grid-cols-2 md:grid-cols-[1fr,3fr,1fr] py-3 justify-between items-center'>
                         <div className='w-full '>
                             <Link to='/'>
-                            <VactorIcon />
+                                <VactorIcon />
                             </Link>
                         </div>
-                        <div className='w-full '>
-                            <ul className='flex gap-x-12 '>
+                        <div className='w-full hidden lg:block'>
+                            <ul className='flex gap-x-12 justify-center'>
                                 {
                                     menuData.map((item, index) => (
                                         <li key={index}>
@@ -55,8 +56,12 @@ const Navbar = () => {
                                 }
                             </ul>
                         </div>
-                        <div className='w-full flex justify-center'>
-                            <button className='w-[180px] py-5 text-[#1C1D28]  bg-[#FFD2A4] font-Roboto_Regular rounded-xl '>CONTACT US</button>
+                        {/* short menu */}
+                        <div className="flex justify-end md:justify-center lg:hidden">
+                            <IoIosMenu color='white' size={25} />
+                        </div>
+                        <div className='w-full flex justify-center '>
+                            <button className='w-[120px] lg:w-[180px] py-3 lg:py-5 hidden md:block text-[#1C1D28]  bg-[#FFD2A4] font-Roboto_Regular rounded-xl '>CONTACT US</button>
                         </div>
                     </div>
 

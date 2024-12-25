@@ -3,13 +3,13 @@ import React from 'react'
 const Blog = () => {
     return (
         <>
-            <section className='w-full py-32 bg-white'>
-                <div className='max-w-container mx-auto'>
-                    <div className='text-center mb-16'>
-                        <label className='font-Roboto_Regular text-base text-[#161722]'>Read our Blog</label>
-                        <h2 className='font-Roboto_Bold text-5xl text-[#161722] mt-4'>SHARE, INSPIRE, INNOVATE</h2>
+            <section className='w-full py-8 lg:py-16 xl:py-32 bg-white'>
+                <div className='w-full px-4 sm:px-8 lg:max-w-container lg:mx-auto'>
+                    <div className='text-center mb-8 sm:mb-12 lg:mb-16'>
+                        <label className='font-Roboto_Regular text-xs md:text-base text-[#161722]'>Read our Blog</label>
+                        <h2 className='font-Roboto_Bold text-2xl md:text-3xl lg:text-5xl text-[#161722] mt-4'>SHARE, INSPIRE, INNOVATE</h2>
                     </div>
-                    <div className='flex justify-between'>
+                    <div className='w-full flex flex-wrap 2xl:flex-nowrap  gap-4 justify-center'>
                         <div className='w-[302px] bg-[#FFF5EB] group block'>
                             <div className='py-12 px-8'>
                                 <caption className='font-Roboto_Bold text-xs bg-gradient-to-r from-[#A54E2B] to-[#DC9853] inline-block text-transparent bg-clip-text'>Relationship</caption>

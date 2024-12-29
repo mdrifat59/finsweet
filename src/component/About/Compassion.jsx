@@ -13,10 +13,7 @@ const Compassion = () => {
                         <div>
                             <h4 className='font-Roboto_Regular text-xs md:text-base text-[#161722] text-center'>Welcome to our CHURCH</h4>
                             <h2 className='font-Roboto_Bold text-2xl md:text-3xl lg:text-5xl text-[#161722] uppercase text-center mb-8 mt-4'>Love and compassion</h2>
-                            <p className='w-[370px] md:w-[520px] lg:w-[846px] font-Roboto_Regular text-xs md:text-sm lg:text-base text-[#161722] text-center '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-                            {/* <div className='flex justify-center mt-[25px] md:mt-[56px]'>
-                                <button className='font-Roboto_Regular text-xs md:text-base text-[#1C1D28] px-6 md:px-8 lg:px-16 py-2 md:py-4 lg:py-6 bg-[#FFD2A4] rounded-xl uppercase'>Read more</button>
-                            </div> */}
+                            <p className='w-[370px] md:w-[520px] lg:w-[846px] font-Roboto_Regular text-xs md:text-sm lg:text-base text-[#161722] text-center '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>                          
                         </div>
                     </div>
                     <div className='xl:w-[1024px] mx-auto gap-2 '>

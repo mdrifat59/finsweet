@@ -33,13 +33,13 @@ const Footer = () => {
                     <div className='lg:mr-[105px]   '>
                         <p className='font-Roboto_Regular text-base text-[#FFFFFF]'>Connect</p>
                         <div className='flex gap-5 mt-5'>
-                            <Link>
+                            <Link className='text-[#fdd3a3]'>
                                 <FacebookIcons />
                             </Link>
-                            <Link>
+                            <Link className='text-[#fdd3a3]'>
                                 <TwitterIcons />
                             </Link>
-                            <Link>
+                            <Link className='text-[#fdd3a3]'>
                                 <LinkdinIcons />
                             </Link>
                         </div>

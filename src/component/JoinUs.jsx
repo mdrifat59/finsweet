@@ -3,6 +3,7 @@ import join from '/public/img/join.jpg'
 import location from '/public/img/location.png'
 import clock from '/public/img/clock.png'
 import { GoArrowRight } from 'react-icons/go'
+import { Link } from 'react-router-dom'
 
 const JoinUs = () => {
     return (
@@ -46,8 +47,8 @@ const JoinUs = () => {
                             <img src={join} className='w-full h-full object-cover' alt="" />
                         </div>
                     </div>
-                    <div className='flex justify-end items-center gap-1 mt-[50px]'>
-                        <label className='font-Roboto_Regular text-base lg:text-2xl text-[#161722]'>View all Sermons</label>
+                    <div className='flex justify-end  items-center gap-1 mt-[50px]'>
+                        <Link to='/sermonevent' className='font-Roboto_Regular cursor-pointer text-base lg:text-2xl text-[#161722]'>View all Sermons</Link>
                         <GoArrowRight className='w-[24px] text-[#161722]' />
                     </div>
                 </div>

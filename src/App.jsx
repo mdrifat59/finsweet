@@ -6,6 +6,7 @@ import Home from './page/Home'
 import About from './page/About'
 import Sermons from './page/Sermons'
 import Blog from './page/Blog'
+import ShowCompassion from './component/ShowCompassion'
 
 function App() { 
 let router = createBrowserRouter(
@@ -16,6 +17,7 @@ let router = createBrowserRouter(
         <Route path='/about' element={<About/>}></Route>
         <Route path='/sermon' element={<Sermons/>}></Route>
         <Route path='/blog' element={<Blog/>}></Route>
+        <Route path='/showcompassion' element={<ShowCompassion/>}></Route>
       </Route>
     </Route>
   )

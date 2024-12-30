@@ -13,10 +13,10 @@ const Recent = () => {
                     </div>
                 </div>
                 {/* contente */}
-                <div className="grid  gap-y-[96px] py-14 bg-white">
+                <div className="grid  gap-y-[96px] p-3 xl:p-14 bg-white">
                     <div className='flex flex-col-reverse md:flex-row justify-center gap-5'>
-                        <div className='w-full'>
-                            <img src={Recentimg} alt="" />
+                        <div className='w-full overflow-hidden object-cover'>
+                            <img src={Recentimg} className='w-full overflow-hidden object-cover' alt="" />
                         </div>
                         <div className="flex flex-col justify-center">
                             <div className='pr-7 xl:pr-0 xl:w-[490px] flex justify-between mb-3'>

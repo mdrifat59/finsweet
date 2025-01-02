@@ -61,7 +61,9 @@ const Navbar = () => {
                             <IoIosMenu color='white' size={25} />
                         </div>
                         <div className='w-full flex justify-center '>
-                            <button className='w-[120px] lg:w-[180px] py-3 lg:py-5 hidden md:block text-[#1C1D28]  bg-[#FFD2A4] font-Roboto_Regular rounded-xl '>CONTACT US</button>
+                            <Link to="/contact">
+                                <button className='w-[120px] lg:w-[180px] py-3 lg:py-5 hidden md:block text-[#1C1D28]  bg-[#FFD2A4] font-Roboto_Regular rounded-xl '>CONTACT US</button>
+                            </Link>
                         </div>
                     </div>
 

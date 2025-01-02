@@ -1,12 +1,9 @@
 import React from 'react'
 import sermonimg from '/public/img/sermoneventimg.png'
 import location from '/public/img/location.png'
-import clock from '/public/img/clock.png'
-import { useLocation } from 'react-router-dom'
+import clock from '/public/img/clock.png' 
 
-const SermonEvent = () => {
-  const location = useLocation()
-  console.log(location.pathname);
+const SermonEvent = () => { 
 
   return (
     <>
